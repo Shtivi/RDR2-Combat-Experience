@@ -110,5 +110,4 @@ bool isDaylight();
 #include "Player.h"
 #include "ScenarioPoint.h"
 #include "Place.h"
-#include "Gallow.h"
 #include "MapArea.h"
