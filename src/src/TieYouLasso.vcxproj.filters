@@ -139,18 +139,6 @@
     <ClCompile Include="Utils.cpp">
       <Filter>Src\Script\Utils</Filter>
     </ClCompile>
-    <ClCompile Include="NooseSpot.cpp">
-      <Filter>Src\Game\Game\Gallows</Filter>
-    </ClCompile>
-    <ClCompile Include="StDanisGallows.cpp">
-      <Filter>Src\Game\Game\Gallows</Filter>
-    </ClCompile>
-    <ClCompile Include="StrawberryGallows.cpp">
-      <Filter>Src\Game\Game\Gallows</Filter>
-    </ClCompile>
-    <ClCompile Include="Gallow.cpp">
-      <Filter>Src\Game\Game\Gallows</Filter>
-    </ClCompile>
     <ClCompile Include="NamesGenerator.cpp">
       <Filter>Src\Script\NamesGenerator</Filter>
     </ClCompile>
@@ -294,18 +282,6 @@
     <ClInclude Include="EventsSubscriber.h">
       <Filter>Src\Script\EventsChannel</Filter>
     </ClInclude>
-    <ClInclude Include="NooseSpot.h">
-      <Filter>Src\Game\Game\Gallows</Filter>
-    </ClInclude>
-    <ClInclude Include="StDanisGallows.h">
-      <Filter>Src\Game\Game\Gallows</Filter>
-    </ClInclude>
-    <ClInclude Include="StrawberryGallows.h">
-      <Filter>Src\Game\Game\Gallows</Filter>
-    </ClInclude>
-    <ClInclude Include="Gallow.h">
-      <Filter>Src\Game\Game\Gallows</Filter>
-    </ClInclude>
     <ClInclude Include="NamesGenerator.h">
       <Filter>Src\Script\NamesGenerator</Filter>
     </ClInclude>
@@ -385,9 +361,6 @@
     </Filter>
     <Filter Include="Src\Script\EventsChannel">
       <UniqueIdentifier>{b71c9346-1f41-41e7-8ca9-e5d6367b9fdd}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Src\Game\Game\Gallows">
-      <UniqueIdentifier>{15542f44-883b-45b2-8459-9235aab3530a}</UniqueIdentifier>
     </Filter>
     <Filter Include="Src\Script\NamesGenerator">
       <UniqueIdentifier>{f9dab4dc-6c58-4e4e-af89-1c06a8b59420}</UniqueIdentifier>

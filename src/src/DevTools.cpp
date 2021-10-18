@@ -35,7 +35,7 @@ void DevTools::disable()
 
 void DevTools::update()
 {
-
+	ENTITY::SET_ENTITY_INVINCIBLE(player, true);
 	Vector3 pos = playerPos();
 
 	Hash weaponHash;
@@ -96,7 +96,6 @@ void DevTools::update()
 
 	if (IsKeyJustUp(VK_KEY_X))
 	{
-
 	}
 
 	if (IsKeyJustUp(VK_F1))

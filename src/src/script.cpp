@@ -88,7 +88,7 @@ void tickMeleeGore()
 
 void tickCameraShake()
 {
-	if (WEAPON::IS_WEAPON_A_GUN(getPedEquipedWeapon(player)) && PED::IS_PED_SHOOTING(player))
+	if (WEAPON::IS_WEAPON_A_GUN(getPedEquipedWeapon(player)) && PED::IS_PED_SHOOTING(player) && !CAM::IS_GAMEPLAY_CAM_SHAKING())
 	{
 		WeaponHash weap = (WeaponHash)getPedEquipedWeapon(player);
 		float intensity = 0.05;
@@ -160,15 +160,15 @@ void main()
 			}
 		}
 
-		if (DevTools::isActive())
-		{
-			DevTools::update();
-		}
+		//if (DevTools::isActive())
+		//{
+		//	DevTools::update();
+		//}
 
-		if (true && IsKeyJustUp(VK_F2))
-		{
-			DevTools::toggle();
-		}
+		//if (true && IsKeyJustUp(VK_F2))
+		//{
+		//	DevTools::toggle();
+		//}
 
 		WAIT(0);
 	}

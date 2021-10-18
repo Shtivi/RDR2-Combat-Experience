@@ -8,9 +8,9 @@ This mod aims to enhance the combat experience in the game, with several configu
 
 ### Features overview
 NOTE: All features can be turned off through the .ini file.
-- The camera can now be zoomed in while aiming in third person. 
-  Use the scroller to zoom in / out if you're using keyboard and mouse, or the down arrow in your controller.
-- Heavy melee weapons (machete and cleaver) will now cut off specific bodyparts upon hit (head / arms / legs).
+- The camera can now be zoomed while aiming in third person. 
+  Use the mouse wheel to zoom in / out if you're using keyboard and mouse, or the down arrow in your controller.
+- Machete and cleaver will now cut off specific bodyparts upon hit (head / arms / legs).
 - The camera slightly shakes upon shot, giving a more realistic sense to shooting.
 
 ### Known issues:
